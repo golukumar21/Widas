@@ -1,0 +1,22 @@
+.home {
+    .search {
+        text-align: center;
+    }
+    .book_table {
+        .books {
+            display: flex;
+            border: 1px solid #d6d6d6;
+            margin: 10px 0;
+            cursor: pointer;
+            .book_det {
+                padding: 15px 0px;
+                label {
+                    font-weight: 500;
+                }
+            }
+            img {
+                width: 100px;
+            }
+        }
+    }
+}
